@@ -1,0 +1,73 @@
+/* SignMessage.css */
+h2{
+  /* background-color:white ; */
+  color: rgb(0, 0, 0);
+}
+.sign-p{
+  margin: 0px;
+}
+.signouter-container {
+  font-family: Arial, sans-serif;
+    background-color:#e1ecf7;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+
+  
+
+  }
+  .signheader-container{
+    background-color:white;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+
+.signinner-container{
+  text-align: center;
+  min-width: 500px;
+  max-width: 600px;
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-color:#0053b6;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+  flex-direction: column;
+ 
+}
+
+.signed-message-container{
+  max-width: 100%;
+  overflow-wrap: break-word; 
+  word-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap; 
+  /* background-color: #f3f2f2;  */
+  padding: 20px;
+  border-radius: 10px; 
+  overflow: auto; 
+  max-height: 500px; 
+  /* min-height: 130px; */
+}
+
+.sign-button{
+  background-color: #3997fc;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  margin: 20px auto ;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

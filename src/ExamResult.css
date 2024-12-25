@@ -1,0 +1,40 @@
+.ExamResult-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+    background-color:#0056b3;
+    /* overflow-y: auto; */
+    width: 90%;
+    max-width: 800px;
+    /* max-height: 90vh; */
+    min-height:70vh;
+    height:auto;
+    border-radius:10px;
+}
+.ri{
+    background-color:white;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    width: 90%;
+    max-width: 700px;
+    /* max-height: 90vh; */
+    min-height:60vh;
+    height:auto;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    width: 10%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+  
+    
+
+}

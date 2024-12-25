@@ -1,0 +1,126 @@
+/* Landing Page Specific Styles */
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-color: #f0f4f8;
+    padding: 40px;
+}
+
+h1 {
+    /* color: #1162b4; */
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;
+    /* background-color: #1162b4; */
+}
+
+.button-container {
+    display: flex;
+    width: 60%;
+    height: 50vh;
+    justify-content: center;
+    margin: auto ;
+    align-items: center;
+}
+
+.half-screen {
+    flex: 1;
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+ 
+    margin: 0 30px;
+    /* background-color: rgb(169, 102, 14); */
+    
+}
+
+.user-div  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #c8e1fb;
+    border-radius: 20px;
+}
+
+.user-inner {
+    background-image: url('./user_male4-256.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 60%;
+}
+
+.moderator-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #c8e1fb;
+    border-radius: 20px;
+}
+
+.moderator-inner {
+    background-image: url('./moderator.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-div:hover {
+    background-color: rgba(0, 123, 255, 0.3);
+}
+
+.moderator-div:hover {
+    background-color: rgba(0, 123, 255, 0.3);
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s;
+    width: 40%;
+    margin: 20px 0;
+}
+
+.button:hover {
+    background-color: #2a80b9;
+}
+
+.register-container {
+    margin-top: 30px;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #024588;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 0 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.navbar h1 {
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 1.8em;
+}
